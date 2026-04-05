@@ -82,12 +82,12 @@ Evaluation (`python src/evaluate.py`) writes:
 
 ```
 src/
-	data_loader.py       # Fetch/load NHANES (cached)
-	preprocessing.py     # Target + feature engineering + preprocessing
-	model.py             # Train XGBoost + save artifacts
-	evaluate.py          # Metrics + fairness + SHAP + plot
+  data_loader.py       # Fetch/load NHANES (cached)
+  preprocessing.py     # Target + feature engineering + preprocessing
+  model.py             # Train XGBoost + save artifacts
+  evaluate.py          # Metrics + fairness + SHAP + plot
 
 notebooks/
-	01_eda.ipynb
-	02_baseline.ipynb
+  01_eda.ipynb
+  02_baseline.ipynb
 ```
